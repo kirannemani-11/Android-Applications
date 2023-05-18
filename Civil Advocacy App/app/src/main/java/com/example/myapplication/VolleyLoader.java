@@ -18,7 +18,8 @@ import java.util.List;
 
 public class VolleyLoader {
     private static final String TAG = "Volley";
-    static String DATA_URL = "https://www.googleapis.com/civicinfo/v2/representatives?key=AIzaSyBuYmiEQ1DAj7F0_shJaPArXPj0B74X4S0";
+    // Enter Key
+    static String DATA_URL = "https://www.googleapis.com/civicinfo/v2/representatives?key=";
     static ArrayList<Mainoffice> list = new ArrayList<Mainoffice>();
     static ArrayList<Officialm2> o = new ArrayList<>();
     //static String ApiKey = "";
